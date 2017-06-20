@@ -39,7 +39,7 @@ app.get('/legacy', function(req,res) {
     res.render('legacy');
 });
 
-app.listen(8080, () => {
+app.listen(process.env.PORT || 8080, () => {
     console.log("App is listening on Port 8080");
 });
 
