@@ -1,0 +1,66 @@
+body {
+  padding-top: 60px;
+  font-family: 'Roboto', sans-serif;
+}
+@media (max-width: 979px) {
+  body {
+    padding-top: 0px;
+    font-family: 'Roboto', sans-serif;
+  }
+}
+
+.navbar a {
+  color: rgb(119,119,140);
+}
+
+.navbar-right {
+  padding-right: 2em;
+}
+
+#dropdown {
+  border-style: none;
+  color: rgb(119,119,140);
+  background-color: rgb(248,248,248);
+  margin-top: .65em;
+}
+
+#lazy {
+  color: rgb(119,119,140);
+}
+
+#drawerBody {
+  margin-top: 4em;
+  padding-left: 1em;
+}
+
+#drawerBody img {
+  height: 281px;
+  width: 190px;  
+}
+
+#cardviewer {
+    height: 331px;
+    width: 223px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  cursor: pointer;
+}
+
+.jumbotron {
+    background-position: 50% 0%;
+    margin-top: 0px;
+
+    min-height: 40rem;
+    color: #0c6196;
+    background-image: url('/snap-paper.jpg'); 
+}
+
+#version {
+  float: right;
+}
+
